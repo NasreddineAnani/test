@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/Users/nas/glo-2003-h18-team-15/NewBackend/Backend/src/main/java/com/github/glo2003/APIServer.java">
+</file>
+<file name="/Users/nas/glo-2003-h18-team-15/NewBackend/Backend/src/main/java/com/github/glo2003/handlers/ScheduleHandler.java">
+</file>
+<file name="/Users/nas/glo-2003-h18-team-15/NewBackend/Backend/src/main/java/com/github/glo2003/handlers/StaffsHandler.java">
+</file>
+<file name="/Users/nas/glo-2003-h18-team-15/NewBackend/Backend/src/main/java/com/github/glo2003/mongo/MongoConnect.java">
+</file>
+<file name="/Users/nas/glo-2003-h18-team-15/NewBackend/Backend/src/main/java/com/github/glo2003/morphia/IScheduleDAO.java">
+</file>
+<file name="/Users/nas/glo-2003-h18-team-15/NewBackend/Backend/src/main/java/com/github/glo2003/morphia/ScheduleDAO.java">
+</file>
+<file name="/Users/nas/glo-2003-h18-team-15/NewBackend/Backend/src/main/java/com/github/glo2003/response/Day.java">
+</file>
+<file name="/Users/nas/glo-2003-h18-team-15/NewBackend/Backend/src/main/java/com/github/glo2003/response/Schedule.java">
+</file>
+<file name="/Users/nas/glo-2003-h18-team-15/NewBackend/Backend/src/main/java/com/github/glo2003/response/Staffs.java">
+</file>
+<file name="/Users/nas/glo-2003-h18-team-15/NewBackend/Backend/src/main/java/com/github/glo2003/response/TimeSlot.java">
+</file>
+</checkstyle>

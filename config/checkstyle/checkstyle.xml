@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+        "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+
+<module name = "Checker">
+    <module name="TreeWalker">
+        <property name="tabWidth" value="4"/>
+        <module name="RedundantImport"/>
+        <module name="EmptyBlock"/>
+        <module name="UnnecessaryParentheses"/>
+        <module name="MethodLength">
+            <property name="max" value="60"/>
+        </module>
+        <module name="ConstantName"/>
+        <module name="LocalVariableName"/>
+        <module name="MemberName"/>
+        <module name="MethodName"/>
+        <module name="NoWhitespaceBefore">
+            <property name="tokens" value="COMMA, SEMI, DOT, ELLIPSIS"/>
+            <property name="allowLineBreaks" value="true"/>
+        </module>
+    </module>
+</module>
