@@ -74,6 +74,11 @@ dependencies {
 task wrapper(type: Wrapper) {
     gradleVersion = '2.8'
 }
+
+task stage {
+    dependsOn build
+}
+
 jacoco {
     toolVersion = "0.8.0"
     reportsDir = file("$buildDir/customJacocoReportDir")
