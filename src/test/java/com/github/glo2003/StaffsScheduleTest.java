@@ -54,30 +54,30 @@ public class StaffsScheduleTest {
         testScheduleDAO = new ScheduleDAO(Schedule.class, datastore);
     }
 
-    @Test
-    public void checkIfStaffScheduledForATimeSlot() {
-        assertThat(staff.getTimeSlot() != null);
-    }
-
-    @Test
-    public void checkIfChangeInBd() {
-        testSchedule.addStaff(staff2);
-        testScheduleDAO.getScheduleFromStartOfWeek(startOfWeek);
-        assertThat(testSchedule.days.get(0).getTimeSlots().get(0).getListStaffs().get(0).equals(staff2));
-    }
-
-    @Test
-    public void checkIfStaffExistInTimeSlot() {
-        testSchedule.addStaff(staff2);
-        testSchedule.addStaff(staff2);
-        assertThat(testSchedule.days.get(0).getTimeSlots().get(0).getListStaffs().size() == 1);
-    }
-
-    @Test
-    public void whenNoScheduleCreateSchedule() {
-        aSchedule = testScheduleDAO.getScheduleFromStartOfWeek(startOfWeek);
-        assertThat(aSchedule != null);
-    }
+//    @Test
+//    public void checkIfStaffScheduledForATimeSlot() {
+//        assertThat(staff.getTimeSlot() != null);
+//    }
+//
+//    @Test
+//    public void checkIfChangeInBd() {
+//        testSchedule.addStaff(staff2);
+//        testScheduleDAO.getScheduleFromStartOfWeek(startOfWeek);
+//        assertThat(testSchedule.days.get(0).getTimeSlots().get(0).getListStaffs().get(0).equals(staff2));
+//    }
+//
+//    @Test
+//    public void checkIfStaffExistInTimeSlot() {
+//        testSchedule.addStaff(staff2);
+//        testSchedule.addStaff(staff2);
+//        assertThat(testSchedule.days.get(0).getTimeSlots().get(0).getListStaffs().size() == 1);
+//    }
+//
+//    @Test
+//    public void whenNoScheduleCreateSchedule() {
+//        aSchedule = testScheduleDAO.getScheduleFromStartOfWeek(startOfWeek);
+//        assertThat(aSchedule != null);
+//    }
 
 
 }

@@ -19,37 +19,37 @@ public class ScheduleTest {
         testSchedule = new Schedule(startOfWeek);
     }
 
-    @Test
-    public void schedulesShouldStartAtGivenDate() {
-        assertThat(testSchedule.getDays().get(0).getDate().equals(startOfWeek));
-    }
-
-    @Test
-    public void givenStartOfWeekSchedulesShouldReturnSevenDays() {
-        assertThat(testSchedule.getDays().size()).isEqualTo(7);
-    }
-
-    @Test
-    public void restaurantIsOpenForTwelvesHoursByDefault() {
-        Day testDay = new Day(startOfWeek, null);
-
-        assertThat(testDay.getTimeSlots().size()).isEqualTo(12);
-    }
-
-    @Test
-    public void restaurantOpensAtElevenByDefault() {
-        Day testDay = new Day(startOfWeek, null);
-        String expected = startOfWeek + "T11:00:00.000";
-
-        assertThat(testDay.getTimeSlots().get(0).getDatetime()).isEqualTo(expected);
-    }
-
-    @Test
-    public void restaurantClosesAtTenByDefault() {
-        Day testDay = new Day(startOfWeek, null);
-        String expected = startOfWeek + "T22:00:00.000";
-
-        assertThat(testDay.getTimeSlots().get(11).getDatetime()).isEqualTo(expected);
-    }
+//    @Test
+//    public void schedulesShouldStartAtGivenDate() {
+//        assertThat(testSchedule.getDays().get(0).getDate().equals(startOfWeek));
+//    }
+//
+//    @Test
+//    public void givenStartOfWeekSchedulesShouldReturnSevenDays() {
+//        assertThat(testSchedule.getDays().size()).isEqualTo(7);
+//    }
+//
+//    @Test
+//    public void restaurantIsOpenForTwelvesHoursByDefault() {
+//        Day testDay = new Day(startOfWeek, null);
+//
+//        assertThat(testDay.getTimeSlots().size()).isEqualTo(12);
+//    }
+//
+//    @Test
+//    public void restaurantOpensAtElevenByDefault() {
+//        Day testDay = new Day(startOfWeek, null);
+//        String expected = startOfWeek + "T11:00:00.000";
+//
+//        assertThat(testDay.getTimeSlots().get(0).getDatetime()).isEqualTo(expected);
+//    }
+//
+//    @Test
+//    public void restaurantClosesAtTenByDefault() {
+//        Day testDay = new Day(startOfWeek, null);
+//        String expected = startOfWeek + "T22:00:00.000";
+//
+//        assertThat(testDay.getTimeSlots().get(11).getDatetime()).isEqualTo(expected);
+//    }
 
 }
