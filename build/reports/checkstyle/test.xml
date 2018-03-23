@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="5.9">
-<file name="/Users/nas/glo-2003-h18-team-15/NewBackend/Backend/src/test/java/com/github/glo2003/ScheduleTest.java">
+<file name="/Users/nas/Desktop/Backend/src/test/java/com/github/glo2003/ScheduleTest.java">
 </file>
-<file name="/Users/nas/glo-2003-h18-team-15/NewBackend/Backend/src/test/java/com/github/glo2003/StaffsScheduleTest.java">
+<file name="/Users/nas/Desktop/Backend/src/test/java/com/github/glo2003/StaffsScheduleTest.java">
 </file>
 </checkstyle>
